@@ -20,7 +20,7 @@ public class RepeatIsBadTaskTest extends BaseIOTest {
         for (int runner = 0; runner < 20; ++runner) {
             expected.append("writing the same code doesn't have much impact, and it's also time consuming\n");
         }
-        RepeatIsBad repeatIsBad = new RepeatIsBad();
+        Main repeatIsBad = new Main();
 
         repeatIsBad.repeatIsBad();
 
